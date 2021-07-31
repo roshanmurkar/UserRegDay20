@@ -17,5 +17,8 @@ public class Main {
 		
 		PasswordValidation passwordValidation=new PasswordValidation();
 		passwordValidation.passwordValidate("Rosh@123");
+		
+		PasswordWithCondition passwordWithCondition=new PasswordWithCondition();
+		passwordWithCondition.passwordValidation("Roshan07");
 	}
 }

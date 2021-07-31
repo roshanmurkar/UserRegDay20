@@ -8,5 +8,8 @@ public class Main {
 		
 		LastNameValidation lastNameValidation=new LastNameValidation();
 		lastNameValidation.lastNameValidate("Murkar");
+		
+		EmailValidation emailValidation=new EmailValidation();
+		emailValidation.emailValidation("abc.xyz@bl.co.in");
 	}
 }

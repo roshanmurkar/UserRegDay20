@@ -20,5 +20,8 @@ public class Main {
 		
 		PasswordWithCondition passwordWithCondition=new PasswordWithCondition();
 		passwordWithCondition.passwordValidation("Roshan07");
+		
+		PasswordWithConditionP2 passwordWithConditionP2=new PasswordWithConditionP2();
+		passwordWithConditionP2.passwordValidation("R0shanaa");
 	}
 }

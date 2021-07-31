@@ -5,5 +5,8 @@ public class Main {
 	
 		FirstNAmeValidation firstNAmeValidation=new FirstNAmeValidation();
 		firstNAmeValidation.firstNameValidate("Roshan");
+		
+		LastNameValidation lastNameValidation=new LastNameValidation();
+		lastNameValidation.lastNameValidate("Murkar");
 	}
 }

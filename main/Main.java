@@ -11,5 +11,8 @@ public class Main {
 		
 		EmailValidation emailValidation=new EmailValidation();
 		emailValidation.emailValidation("abc.xyz@bl.co.in");
+		
+		MobileNumValidation mobileNumValidation=new MobileNumValidation();
+		mobileNumValidation.phoneNumberValidate("91 7276825217");
 	}
 }

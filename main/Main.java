@@ -14,5 +14,8 @@ public class Main {
 		
 		MobileNumValidation mobileNumValidation=new MobileNumValidation();
 		mobileNumValidation.phoneNumberValidate("91 7276825217");
+		
+		PasswordValidation passwordValidation=new PasswordValidation();
+		passwordValidation.passwordValidate("Rosh@123");
 	}
 }
